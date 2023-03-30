@@ -3,18 +3,18 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 import warnings
-import numpy as np
+# import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+# import seaborn as sns
+# import matplotlib.pyplot as plt
 
-from nltk.corpus import stopwords
-import string
+# from nltk.corpus import stopwords
+# import string
 # from wordcloud import WordCloud
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn import metrics
+# from sklearn import metrics
 
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
@@ -24,7 +24,7 @@ from nltk.tokenize import WhitespaceTokenizer
 import plotly.graph_objects as go
 import plotly.express as px
 
-import chart_studio.plotly as py
+# import chart_studio.plotly as py
 
 import re
 
